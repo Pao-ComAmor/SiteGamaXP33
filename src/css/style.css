@@ -1,0 +1,234 @@
+@font-face {font-family: "Century Gothic";
+    src: url("fonts/century-gothic.eot");
+    src: url("fonts/century-gothic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/century-gothic.woff2") format("woff2"),
+    url("fonts/century-gothic.woff") format("woff"),
+    url("fonts/century-gothic.ttf") format("truetype"),
+    url("fonts/century-gothic.svg#Century Gothic") format("svg");
+}
+@font-face {font-family: "Avenir Book";
+    src: url("//db.onlinewebfonts.com/t/331ec49c0d78e469c42c1d814dd45838.eot");
+    src: url("//db.onlinewebfonts.com/t/331ec49c0d78e469c42c1d814dd45838.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/331ec49c0d78e469c42c1d814dd45838.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/331ec49c0d78e469c42c1d814dd45838.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/331ec49c0d78e469c42c1d814dd45838.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/331ec49c0d78e469c42c1d814dd45838.svg#Avenir Book") format("svg");
+}
+body{
+    font-family: "Century Gothic";
+}
+/*========== Menu Início =========*/
+.menu__nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1%;
+}
+.nav__logo{
+    width: 4vw;
+}
+.nav__logo img{
+    width: 6vw;
+    align-items: center;
+}
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+    align-items: baseline;
+}
+.menu__site{
+    width: 70%;
+}
+.menu__site ul{
+    display: flex;
+    justify-content: space-between;
+}
+.menuText{
+    font-family: "Century Gothic";
+    font-size: 1.4rem;
+}
+.menuText a{
+    color: #6e4d31;
+    font-weight: 700;
+}
+.nav__redeSocial{
+    width: 14vw;
+    padding-top: 2%;
+}
+.nav__redeSocial ul{
+    display: flex;
+    justify-content: space-between;
+}
+.redeSocial_img{
+    width: 2.5vw;
+}
+#img_facebook{
+    width: 1.3vw;
+}
+/*========== Menu Fim =========*/
+#start{
+    background: #ef6e2691;
+    display: flex;
+}
+.sideLeft{
+    width: 45%;
+    padding: 3% 0% 4% 8%;
+}
+/* .sombraFoto{
+    padding: 80px;
+    height: 80px;
+    background: #A3DBA5;
+    position: relative;
+    width: 156px;
+} */
+.foto{
+    background: #A3DBA5;
+    width: 380px;
+    padding: 20px 0.5px 0.5px 17px;
+    
+}
+.sideRigth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3%;
+    color: #fff;
+    font-size: 2rem;
+}
+.linkAjuda{
+    padding: 20px;
+    background: #A3DBA5;
+    box-shadow: 0px 4px 8px #00000029;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+#quemSomos{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #A3DBA5;
+    color: #fff;
+    min-height: 120px;
+}
+h2, h3, h4, h5{
+    padding: 4% 0%;
+    font-size: 2.4rem;
+}
+#quemSomos p{
+    width: 84%;
+    font-family: "Avenir Book";
+    font-size: 1.2rem;
+    line-height: 20px;
+    text-align: justify;
+}
+#quemSomos .fotoGupo{
+    display: flex;
+    justify-content: space-around;
+    width: 88vw;
+    padding-bottom: 4%;
+}
+#quemSomos .fotoGupo img{
+    width: 20%;
+}
+#comoAjudar{
+    background: #E3E7EC;
+    color: #424A55;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerAjuda{
+    width: 82vw;
+}
+.doacoes{
+    display: flex;
+    align-items: center;
+}
+.doacoes__one p{
+    width: 94%;
+    line-height: 26px;
+    padding: 1.5% 0%;
+}
+.doacoes__two{
+    width: 30vw;
+}
+@media screen and (max-width: 1050px){
+    /*========== Menu Início =========*/
+    .menuText{
+        font-size: 1.2rem;
+    }   
+    /*========== Menu Fim =========*/
+}
+@media screen and (max-width: 880px){
+    /*========== Menu Início =========*/
+    .menu__nav{
+        padding-top: 3%;
+    }
+    .nav__container{
+        width: 82%
+    }
+    /*========== Menu Fim =========*/
+} 
+@media screen and (max-width: 650px){
+   /*========== Menu Início =========*/
+    .menu__nav{
+        padding-top: 2%;
+    }
+    .nav__logo img {
+        width: 10vw;
+    }
+    .nav__container{
+        width: 72%
+    }
+    .nav__redeSocial{
+        width: 20vw;
+    }
+    .redeSocial_img{
+        width: 4.8vw;
+    }
+    #img_facebook{
+        width: 2.8vw;
+    }
+    /*========== Menu Fim =========*/
+} 
+@media screen and (max-width: 550px){
+    /*========== Menu Início =========*/
+    .nav__container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav__logo img {
+        width: 14vw;
+        padding-top: 14%;
+    }
+    .menu__site {
+        width: 100%;
+        padding-top: 1%;
+    }
+    .nav__redeSocial{
+        width: 56vw;
+        justify-content: space-around;
+        padding-left: 10%;
+        padding-top: 6%;
+    }
+    /*========== Menu Fim =========*/
+}
+@media screen and (max-width: 450px){
+    /*========== Menu Início =========*/
+    .nav__logo img {
+        width: 16vw;
+    }
+    .redeSocial_img{
+        width: 6.6vw;
+    }
+    #img_facebook{
+        width: 3.6vw;
+    }
+    /*========== Menu Fim =========*/
+}
